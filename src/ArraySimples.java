@@ -8,5 +8,8 @@ public class ArraySimples {
 
         int posicao = Arrays.binarySearch(paises, "BRASIL");
         System.out.println(posicao);
+
+        Arrays.sort(paises, 0, paises.length);
+        System.out.println("sorting arrays = " + (posicao));
     }
 }
